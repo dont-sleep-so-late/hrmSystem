@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.elms.hrsystem.mapper.SysOrgan2Mapper">
+
+
+    <resultMap type="com.elms.hrsystem.entity.SysOrgan2" id="sysOrgan2Map">
+        <result property="o2Id" column="o2_id"/>
+        <result property="o1Id" column="o1_id"/>
+        <result property="o2Name" column="o2_name"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.elms.hrsystem.mapper.FileInfoMapper">
+
+    <resultMap type="com.elms.hrsystem.entity.FileInfo" id="fileInfoMap">
+        <result property="fId" column="f_id"/>
+        <result property="uId" column="u_id"/>
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="birth" column="birth"/>
+        <result property="age" column="age"/>
+        <result property="image" column="image"/>
+        <result property="professionId" column="profession_id"/>
+        <result property="organizionId" column="organizion_id"/>
+        <result property="nationId" column="nation_id"/>
+        <result property="academicId" column="academic_id"/>
+        <result property="religionId" column="religion_id"/>
+        <result property="email" column="email"/>
+        <result property="phone" column="phone"/>
+        <result property="qq" column="qq"/>
+        <result property="address" column="address"/>
+        <result property="personalHistory" column="personal_history"/>
+        <result property="familyRelationship" column="family_relationship"/>
+        <result property="remarks" column="remarks"/>
+        <result property="createTime" column="create_time"/>
+        <result property="isDeleted" column="is_deleted"/>
+        <result property="isCheck" column="is_check"/>
+        <result property="isReject" column="is_reject"/>
+    </resultMap>
+
+
+
+
+</mapper>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.elms.hrsystem.mapper.SalInfoMapper">
+
+    <resultMap type="com.elms.hrsystem.entity.SalInfo" id="salInfoMap">
+        <result property="sId" column="s_id"/>
+        <result property="uId" column="u_id"/>
+        <result property="o3Id" column="o3_id"/>
+        <result property="fName" column="f_name"/>
+        <result property="allmoney" column="allmoney"/>
+        <result property="basic" column="basic"/>
+        <result property="transport" column="transport"/>
+        <result property="lunch" column="lunch"/>
+        <result property="communication" column="communication"/>
+        <result property="pension" column="pension"/>
+        <result property="unemployment" column="unemployment"/>
+        <result property="medical" column="medical"/>
+        <result property="homemoney" column="homemoney"/>
+        <result property="review" column="review"/>
+        <result property="createTime" column="create_time"/>
+        <result property="isCheck" column="is_check"/>
+        <result property="isReject" column="is_reject"/>
+        <result property="isGive" column="is_give"/>
+        <result property="isDeleted" column="is_deleted"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,22 @@
+server:
+  port: 9109
+
+spring:
+  application:
+    name: HrSystem
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/human_resources?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123qwe
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    serialization:
+      #关闭jackson 对json做解析
+      fail-on-empty-beans: false
+
+mybatis-plus:
+  #日志
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
