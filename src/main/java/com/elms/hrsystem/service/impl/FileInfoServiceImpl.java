@@ -147,9 +147,9 @@ public class FileInfoServiceImpl extends ServiceImpl<FileInfoMapper, FileInfo> i
         String filename = "secondhandshop" + "/" + uuid + suffix;
 
         String endpoint = "oss-cn-hangzhou.aliyuncs.com";
-        String accessKeyId = "LTAI5tKkYanVmbvgznR8UfVn";
-        String accessKeySecret ="DpIfZaJZPzbXFCH8x3WT5v8UBy1fM0";
-        String bucketName = "elmsforpicture";
+        String accessKeyId = "";
+        String accessKeySecret ="";
+        String bucketName = "";
         String objectName = filename;
 
         // 创建OSSClient实例。
